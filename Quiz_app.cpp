@@ -31,7 +31,7 @@ char getAnswer() {
 }
 
 bool isCorrect(char answer, char correct) {
-    return answer ==correct;
+    return answer==correct;
 }
 int main() {
 
