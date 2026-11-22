@@ -1,0 +1,12 @@
+# Compiled binaries and object files
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Build & editor folders
+build/
+.vscode/
