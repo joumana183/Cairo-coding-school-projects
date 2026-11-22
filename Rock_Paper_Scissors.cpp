@@ -50,7 +50,7 @@ void display_final_score(int user_score, int computer_score, int draw_score){
         cout<<"Computer is the overall winner!"<<endl;
     }
     else{
-        cout<<"The game is a draw!"<<endl;
+        cout<<"It's a tie overall!"<<endl;
     }
 }
 
