@@ -54,10 +54,8 @@ void addStudent(vector<Student>& students){
     cout<<"Enter student's name: ";
     cin.ignore();
     getline(cin, name);
-    cout<<endl;
     cout<<"Enter student's ID: ";
     cin>>id;
-    cout<<endl;
     for(int i = 0; i < students.size(); i++){
         if(students[i].getId() == id){
             cout << "This ID already exists!" << endl;
@@ -89,7 +87,6 @@ void addCourse(vector<Student>& students){
     string course;
     cout<<"Enter student's ID: ";
     cin>>id;
-    cout<<endl;
     cout<<"Enter course name: ";
     cin.ignore();
     getline(cin, course);
@@ -108,7 +105,6 @@ void deleteCourse(vector<Student>& students){
     string course;
     cout<<"Enter student's ID: ";
     cin>>id;
-    cout<<endl;
     cout<<"Enter course name: ";
     cin.ignore();
     getline(cin, course);
