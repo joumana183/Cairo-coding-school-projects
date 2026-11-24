@@ -1,190 +1,171 @@
-# C++ Development Portfolio
+\# C++ Development Portfolio
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:1D4ED8&height=180&section=header&text=C%2B%2B%20Development&fontSize=38&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38" width="100%" alt="C++ Development banner"/>
-</p>
+\<p align="center">
+  \<b>Learning, building, experimenting, and growing one project at a time.\</b>
+\</p>
 
-<p align="center">
-  <a href="https://github.com/joumana183">
-    <img src="https://img.shields.io/badge/GitHub-joumana183-181717?style=for-the-badge&logo=github" alt="GitHub profile"/>
-  </a>
-  <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/Focus-Problem%20Solving-2563EB?style=for-the-badge" alt="Problem solving"/>
-  <img src="https://img.shields.io/badge/Practice-OOP-7C3AED?style=for-the-badge" alt="OOP"/>
-</p>
+\<p align="center">
+  \<img src="[https://img.shields.io/badge/Language-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=flat-square\&logo=cplusplus\&logoColor=white)"/>
+  \<img src="[https://img.shields.io/badge/IDE-VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white](https://img.shields.io/badge/IDE-VS%20Code-007ACC?style=flat-square\&logo=visualstudiocode\&logoColor=white)"/>
+  \<img src="[https://img.shields.io/badge/Version%20Control-Git-F05032?style=flat-square&logo=git&logoColor=white](https://img.shields.io/badge/Version%20Control-Git-F05032?style=flat-square\&logo=git\&logoColor=white)"/>
+  \<img src="[https://img.shields.io/badge/Platform-GitHub-181717?style=flat-square&logo=github&logoColor=white](https://img.shields.io/badge/Platform-GitHub-181717?style=flat-square\&logo=github\&logoColor=white)"/>
+\</p>
 
-<p align="center">
-  <i>Exploring ideas, solving problems, and turning concepts into working applications.</i>
-</p>
+\<p align="center">
+  \<a href="#about">About\</a> &nbsp; • &nbsp;
+  \<a href="#projects">Projects\</a> &nbsp; • &nbsp;
+  \<a href="#concepts">Concepts I'm Learning\</a>
+\</p>
 
----
+\---
 
-## `01` — Beyond Writing Code
+\<a id="about">\</a>
 
-Welcome to my C++ Development Portfolio!
+\## 👋 01. About This Repository
 
-I believe that learning programming goes far beyond understanding syntax. It is about developing a problem-solving mindset, breaking complex challenges into smaller pieces, and transforming ideas into practical solutions.
+I'm a Computer Science student passionate about programming, problem-solving, and continuously learning new things.
 
-This repository brings together projects developed throughout my programming course at **Cairo Coding School**. Each application represents an opportunity to experiment, apply new concepts, strengthen my programming fundamentals, and learn through hands-on implementation.
+This repository is a collection of C++ projects I've developed throughout my programming course at **\*\*Cairo Coding School\*\***. Each project is a chance to put what I've learned into practice, explore new ideas, and become a better programmer.
 
-From management systems to interactive games, this collection reflects my continuous progress and growing passion for software development.
+\---
 
-## `02` — Explore the Projects
+\<a id="projects">\</a>
 
-A closer look at the applications I've been building.
+\## 🗂️ 02. Project Showcase
 
-### ◈ Management & Information Systems
+A collection of projects organized into two categories, each demonstrating different programming concepts and problem-solving approaches.
 
-Applications designed to organize information, manage records, and simulate practical management scenarios.
+\### Management & Information Systems
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎓 Student Management System</h3>
-      A student management application focused on organizing student records and handling course information.
+\<details>
+\<summary>\<b>🎓 Student Management System\</b>\</summary>
 
-      <a href="./Student_Management_System.cpp">↗ Explore Source Code</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📊 Student Grades System</h3>
-      An application for managing students' subjects and grades, with a focus on organizing academic information.
+A C++ application for managing student information and organizing student records.
 
-      <a href="./Student_Grades_System.cpp">↗ Explore Source Code</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📚 Library Management System</h3>
-      A system for organizing library books, storing book information, and tracking their availability.
+**\*\*Focus:\*\*** Classes, objects, data management, and functions.
 
-      <a href="./Library_Management_System.cpp">↗ Explore Source Code</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏥 Hospital Management System</h3>
-      An application for organizing patient information and managing basic hospital records.
+[View Source Code]\(./Student_Management_System.cpp)
 
-      <a href="./Hospital_System.cpp">↗ Explore Source Code</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📦 Inventory Management System</h3>
-      A practical application for managing products, tracking quantities, and handling price information.
+\</details>
 
-      <a href="./Inventory_Management_System.cpp">↗ Explore Source Code</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏦 Bank System</h3>
-      A banking application that explores account management and basic banking operations.
+\<details>
+\<summary>\<b>📊 Student Grades System\</b>\</summary>
 
-      <a href="./Bank_System.cpp">↗ Explore Source Code</a>
-    </td>
-  </tr>
-</table>
+A program for managing student grades and working with academic records.
 
-### ◈ Games & Interactive Applications
+**\*\*Focus:\*\*** Data handling, calculations, vectors, and conditional statements.
 
-Projects that bring programming logic to life through interaction, decision-making, and game mechanics.
+[View Source Code]\(./Student_Grades_System.cpp)
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>❎ XO Game</h3>
-      A classic two-player Tic-Tac-Toe game involving board management, player turns, and winning conditions.
+\</details>
 
-      <a href="./xo_game.cpp">↗ Explore Source Code</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>✊ Rock Paper Scissors</h3>
-      An interactive implementation of the classic game, exploring conditional logic and randomized choices.
+\<details>
+\<summary>\<b>📚 Library Management System\</b>\</summary>
 
-      <a href="./Rock_Paper_Scissors.cpp">↗ Explore Source Code</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🧠 Quiz App</h3>
-      A console-based quiz application that brings together questions, answer handling, and scoring logic.
+A simple system for organizing books and managing their availability and borrowing status.
 
-      <a href="./Quiz_app.cpp">↗ Explore Source Code</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>💡 More Ideas Ahead</h3>
-      This collection will continue to grow as I explore new concepts and take on more challenging programming projects.
-    </td>
-  </tr>
-</table>
+**\*\*Focus:\*\*** Object-Oriented Programming, classes, encapsulation, and vectors.
 
-<details>
-  <summary><b>📂 View all project source files in one place</b></summary>
+[View Source Code]\(./Library_Management_System.cpp)
 
-  | # | Project | Source Code |
-  |---|---|---|
-  | 01 | Student Management System | [View](./Student_Management_System.cpp) |
-  | 02 | Student Grades System | [View](./Student_Grades_System.cpp) |
-  | 03 | Library Management System | [View](./Library_Management_System.cpp) |
-  | 04 | Hospital Management System | [View](./Hospital_System.cpp) |
-  | 05 | Inventory Management System | [View](./Inventory_Management_System.cpp) |
-  | 06 | Bank System | [View](./Bank_System.cpp) |
-  | 07 | XO Game | [View](./xo_game.cpp) |
-  | 08 | Rock Paper Scissors | [View](./Rock_Paper_Scissors.cpp) |
-  | 09 | Quiz App | [View](./Quiz_app.cpp) |
+\</details>
 
-</details>
+\<details>
+\<summary>\<b>🏥 Hospital Management System\</b>\</summary>
 
-## `03` — Technologies & Concepts
+A program for managing patient information and organizing basic hospital records.
 
-The projects in this repository have helped me explore and practice different aspects of C++ programming.
+**\*\*Focus:\*\*** Classes, constructors, data management, and input validation.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OOP-7C3AED?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Problem%20Solving-2563EB?style=flat-square"/>
-  <img src="https://img.shields.io/badge/STL-0F766E?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Vectors-0F766E?style=flat-square"/>
-</p>
+[View Source Code]\(./Hospital_System.cpp)
 
-**Core programming concepts:**
+\</details>
 
-- Object-Oriented Programming (OOP)
-- Classes and Objects
-- Encapsulation and Data Hiding
-- Constructors and Member Functions
-- Vectors and Standard Template Library (STL)
-- Conditional Statements and Loops
-- Functions and Code Organization
-- Logical Thinking and Problem Solving
+\<details>
+\<summary>\<b>📦 Inventory Management System\</b>\</summary>
 
-## `04` — What This Journey Is Teaching Me
+An application for managing inventory items, tracking quantities, and handling price information.
 
-Every project comes with its own challenges and lessons.
+**\*\*Focus:\*\*** Encapsulation, constructors, vectors, and data validation.
 
-Throughout this journey, I've been working on:
+[View Source Code]\(./Inventory_Management_System.cpp)
 
-- Translating requirements into logical solutions.
-- Designing classes and organizing program structure.
-- Writing code that is easier to understand and maintain.
-- Understanding how different programming concepts work together.
-- Improving my debugging and problem-solving abilities.
-- Becoming more confident in implementing ideas independently.
+\</details>
 
-Most importantly, I'm learning to approach programming challenges with curiosity, patience, and a willingness to improve.
+\<details>
+\<summary>\<b>🏦 Bank System\</b>\</summary>
 
----
+A basic banking application for managing account information and performing simple transactions.
 
-<p align="center">
-  <b>Learn continuously. Build intentionally. Keep improving.</b>
-</p>
+**\*\*Focus:\*\*** Classes, encapsulation, functions, and conditional logic.
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1800&color=60A5FA&center=true&vCenter=true&width=500&lines=Turning+ideas+into+code...;Learning+one+project+at+a+time...;Always+building%2C+always+improving." alt="Animated programming journey"/>
-</p>
+[View Source Code]\(./Bank_System.cpp)
 
----
+\</details>
 
-<p align="center">
-  Developed with curiosity and passion by
-  <a href="https://github.com/joumana183"><b>joumana183</b></a>
-  <br/>
-  <sub>Cairo Coding School · C++ Programming Projects</sub>
-</p>
+\### Games & Interactive Applications
+
+\<details>
+\<summary>\<b>❌ XO Game\</b>\</summary>
+
+A two-player Tic-Tac-Toe game where players take turns and compete to complete a winning combination.
+
+**\*\*Focus:\*\*** Arrays, loops, functions, and game logic.
+
+[View Source Code]\(./xo_game.cpp)
+
+\</details>
+
+\<details>
+\<summary>\<b>✊ Rock Paper Scissors\</b>\</summary>
+
+An interactive Rock Paper Scissors game where the player competes against the computer.
+
+**\*\*Focus:\*\*** Random number generation, conditional statements, and game logic.
+
+[View Source Code]\(./Rock_Paper_Scissors.cpp)
+
+\</details>
+
+\<details>
+\<summary>\<b>🧠 Quiz App\</b>\</summary>
+
+An interactive quiz application that presents questions, checks answers, and calculates the final score.
+
+**\*\*Focus:\*\*** Functions, arrays, conditional statements, and score calculation.
+
+[View Source Code]\(./Quiz_app.cpp)
+
+\</details>
+
+\---
+
+\<a id="concepts">\</a>
+
+\## 🧠 03. Concepts I'm Learning
+
+Through these projects, I'm building my understanding of:
+
+\- **\*\*Object-Oriented Programming:\*\*** Classes, Objects, Encapsulation, and Constructors.
+\- **\*\*Data Management:\*\*** Vectors, STL, and organizing collections of data.
+\- **\*\*Programming Fundamentals:\*\*** Functions, Loops, Conditional Statements, and Input Validation.
+\- **\*\*Problem Solving:\*\*** Breaking problems down, developing logical solutions, and debugging code.
+
+I'm still learning, experimenting, and challenging myself to understand more with every project. There's always something new to discover, and that's what makes programming exciting to me.
+
+\---
+
+\<p align="center">
+  \<b>Every project is an opportunity to learn, improve, and create.\</b>
+\</p>
+
+\<p align="center">
+  \<a href="[https://github.com/joumana183](https://github.com/joumana183)">
+    \<img src="[https://img.shields.io/badge/Visit%20My%20GitHub-181717?style=plastic&logo=github&logoColor=white](https://img.shields.io/badge/Visit%20My%20GitHub-181717?style=plastic\&logo=github\&logoColor=white)" alt="Visit my GitHub"/>
+  \</a>
+\</p>
+
+\<p align="center">
+  \<sub>Made by \<a href="[https://github.com/joumana183](https://github.com/joumana183)">joumana183\</a> · Cairo Coding School\</sub>
+\</p>
+&#x20; this is my final code but when i click on source code its not loading i am just trying to run the markdown on a readme viewer so is this the reason
