@@ -15,6 +15,7 @@
 <p align="center">
   <a href="#about">About</a> &nbsp; • &nbsp;
   <a href="#projects">Projects</a> &nbsp; • &nbsp;
+  <a href="#run">How to Run</a> &nbsp; • &nbsp;
   <a href="#concepts">Concepts I'm Learning</a>
 </p>
 
@@ -141,9 +142,28 @@ An interactive quiz application that presents questions, checks answers, and cal
 
 ---
 
+<a id="run"></a>
+
+## ▶️ 03. How to Run
+
+Make sure you have a C++ compiler (like `g++`) installed, then:
+
+```bash
+git clone https://github.com/joumana183/Cairo-coding-school-projects.git
+cd Cairo-coding-school-projects
+g++ xo_game.cpp -o xo_game
+./xo_game
+```
+
+Replace `xo_game.cpp` with any project file from the list above.
+
+On Windows, run `xo_game.exe` instead of `./xo_game`.
+
+---
+
 <a id="concepts"></a>
 
-## 🧠 03. Concepts I'm Learning
+## 🧠 04. Concepts I'm Learning
 
 Through these projects, I'm building my understanding of:
 
